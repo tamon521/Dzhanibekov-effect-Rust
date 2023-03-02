@@ -19,7 +19,7 @@ void setup() {
     frameRate(32);
     textSize(16);
 
-    Table table = loadTable("../result.csv");
+    Table table = loadTable("../data/result.csv");
     global_data_lines = table.getRowCount();
     Time  = new float[global_data_lines];
     Yaw   = new float[global_data_lines];

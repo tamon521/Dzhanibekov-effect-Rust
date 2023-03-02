@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/tamonsuehiro/Documents/言語/Rust/my_project/Dzhanibekov-effect-Rust/target/debug/build/typenum-ae18806cb4cff6d7/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/tamonsuehiro/Documents/言語/Rust/my_project/Dzhanibekov-effect-Rust/target/debug/build/typenum-ae18806cb4cff6d7/out/op.rs

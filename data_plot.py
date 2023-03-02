@@ -12,7 +12,7 @@ l = [[], [], []]  # 角運動量
 l_norm = []
 
 # CSVからデータを読み出して配列に追加
-with open('./result.csv') as f:
+with open('data/result.csv') as f:
     reader = csv.reader(f)
     for row in reader:
         nums = [float(v) for v in row]
@@ -75,4 +75,5 @@ ax4.set_ylabel("Angular momentum\n[N*m*s]", fontsize=12)
 ax4.tick_params(labelsize=13)
 ax4.legend(fontsize=15, loc="upper right")
 
+plt.savefig("figure/data_plot.png", dpi=400)
 plt.show()
