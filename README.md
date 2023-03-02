@@ -1,5 +1,10 @@
 # Cloned from [here](https://github.com/HamaguRe/tennis_racket_theorem).
-このレポジトリは [この記事](https://github.com/HamaguRe/tennis_racket_theorem.git)をクローンしたものです．
+このレポジトリは[この記事](https://github.com/HamaguRe/tennis_racket_theorem.git)をクローンし，編集したものです．
+
+## 変更点
+1. クォータニオン(四元数)の計算に，[quaternion-core](https://github.com/HamaguRe/quaternion-core) クレートを使用していたのを，より安定的な [nalgebra](https://github.com/dimforge/nalgebra) ([Docs](https://docs.rs/nalgebra/latest/nalgebra/)) クレートに書き換えた．
+2. レポジトリ名を変更した．
+3. 実行結果ファイルの保存先を変更した．
 
 #  テニスラケットの定理のシミュレーション
 
