@@ -7,9 +7,11 @@ use quat::Quaternion;
 use nalgebra::{SVector, SMatrix};
 
 const DT: f64 = 0.03125;  // 32Hz
-const TIME_RANGE: f64 = 10.0;  // [s]
+// const DT: f64 = 0.0166666666666666667; 
+// const DT: f64 = (1/60) as f64;
+const TIME_RANGE: f64 = 30.0;  // [s]
 const SPLIT_NUM: usize = (TIME_RANGE / DT) as usize + 1;
-const OUT_FILE_PATH: &'static str = "./result.csv";
+const OUT_FILE_PATH: &'static str = "data/result.csv";
 
 type SVector3 = SVector<f64, 3>;
 type SMatrix3x3 = SMatrix<f64, 3, 3>;
