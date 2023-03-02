@@ -1,7 +1,7 @@
-# Cloned from https://github.com/HamaguRe/tennis_racket_theorem.git
-このレポジトリは [https://github.com/HamaguRe/tennis_racket_theorem.git]をクローンしたものです．
+# Cloned from [here](https://github.com/HamaguRe/tennis_racket_theorem).
+このレポジトリは [この記事](https://github.com/HamaguRe/tennis_racket_theorem.git)をクローンしたものです．
 
-##  テニスラケットの定理のシミュレーション
+#  テニスラケットの定理のシミュレーション
 
 宇宙電波実験室の記事内で使用したプログラムです。
 
@@ -19,13 +19,13 @@ $ cargo run && python3 data_plot.py
 
 ## 実行結果
 
-![result](./result.png)
+![result](./figure/result.png)
 
 角速度・角加速度・角運動量は全て物体座標系上における値を表示しています。
 
 ## アニメーション
 
-![animation](./animation.gif)
+![animation](./figure/animation.gif)
 
 Processingコード（`./plot_animation/plot_animation.pde`）を実行することでアニメーション表示できます。
 
