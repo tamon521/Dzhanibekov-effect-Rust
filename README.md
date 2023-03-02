@@ -1,4 +1,7 @@
-# テニスラケットの定理のシミュレーション
+# Cloned from https://github.com/HamaguRe/tennis_racket_theorem.git
+このレポジトリは [https://github.com/HamaguRe/tennis_racket_theorem.git]をクローンしたものです．
+
+##  テニスラケットの定理のシミュレーション
 
 宇宙電波実験室の記事内で使用したプログラムです。
 
@@ -9,8 +12,8 @@
 ## 実行方法
 
 ```
-$ git clone https://github.com/HamaguRe/tennis_racket_theorem.git
-$ cd tennis_racket_theorem
+$ git clone https://github.com/tamon521/Dzhanibekov-effect-Rust.git
+$ cd Dzhanibekov-effect-Rust
 $ cargo run && python3 data_plot.py
 ```
 
